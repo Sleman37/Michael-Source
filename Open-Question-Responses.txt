@@ -1,0 +1,69 @@
+Assignment 1 Responses
+Operating Systems
+Semester 1 5782
+
+Submitting Students:
+<Name> <TZ>
+
+Date: <Date>
+--------------------------------------------------------------------------
+Section 3
+
+(words) 1.  What read buffer size(s) does words use for reading? How do you know?
+
+(words) 5. Use man to write down the roles of the following Linux syscalls which tee uses:
+
+	execve - 
+
+	brk - 
+	
+	openat - 
+
+	mmap - 
+
+	fstat and stat - 
+
+	open (using man 2) - 
+	
+	exit_group -
+
+--------------------------------------------------------------------------
+Section 4
+
+(gdb) 1. What is the value of argv? (Hint: print argv)
+
+(gdb) 2. What is pointed to by argv? (Hint: print argv[0])
+
+(gdb) 3. What is the address of the function main?
+
+(gdb) 4. Try info stack. Explain what you see.
+
+(gdb) 5. Try info frame. Explain what you see.
+
+(gdb) 6. Try info registers. Which registers are holding aspects of the program that you recognize?
+
+--------------------------------------------------------------------------
+Section 5
+
+(objdump) 1. What file format is used for this binary? And what architecture is it compiled for?
+
+(objdump) 2. List the names of 10 segments and  sections you find.
+
+(objdump) 3. What segment/section contains main (the function) and what is the address of main?
+
+(objdump) 4. Do you see the stack segment anywhere? What about the heap? Explain.
+
+--------------------------------------------------------------------------
+Section 6
+
+(mp) 1. Use objdump with the -D flag on the map executable. Which of the addresses from the output of running ./map are defined in the executable, and which segment/section is each defined in?
+
+(mp) 2. List 4 important sections or segments shown.  Write what each one is used for (look up their names on the Internet if you don’t know).
+
+(mp) 3. What direction is the stack growing in?
+
+(mp) 4. How large is the stack frame for each recursive call?
+
+(mp) 5. Where is the heap? What direction is it growing in?
+
+(mp) 6. Are the two malloc()ed memory areas contiguous? (i.e. is there any extra space between their addresses?)
